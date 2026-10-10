@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/tli/ws00_helloworld/install/turtlesim/include/**",
+                "/opt/ros/jazzy/include/**",
+                "/home/tli/ws01_plumbing/src/base_interfaces_demo/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/install/base_interfaces_demo/include/**"
+            ],
+            "name": "ros2",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

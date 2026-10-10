@@ -1,0 +1,34 @@
+# ROS2 编译产物
+build/
+install/
+log/
+
+# VSCode C++ 索引缓存（曾达950 MB，务必排除）
+.vscode/browse.vc.db
+.vscode/browse.vc.db-shm
+.vscode/browse.vc.db-wal
+.vscode/browse.vc.db.lock
+.vscode/*.log
+.ros/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 模型权重与训练产物
+*.pt
+*.onnx
+*.pth
+logs/
+runs/
+outputs/
+
+# 密钥与本机配置（保险起见）
+.env
+*.pem
+*.key
+
+# 系统文件
+.DS_Store
+Thumbs.db
